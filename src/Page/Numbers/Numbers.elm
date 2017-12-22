@@ -3,6 +3,12 @@ module Page.Numbers.Numbers exposing (Model, init, view)
 import Html exposing (..)
 
 
+{- The Numbers page if a really plain page.
+   It does not need to worry about getting the random numbers.
+   Or testing for Maybe's. It knows that it has the numbers and therefor makes this page really clean
+-}
+
+
 type alias Model =
     { first : Int
     , second : Int
